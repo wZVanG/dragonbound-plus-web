@@ -119,7 +119,7 @@ input {
     <div class="main">
             <form action="afiliados.php" id="formulario">
                 <div class="logo"></div>
-                <p>Versión actual: 1.0.<b>126</b><br />Estado: <span style="color:orange"><b>  En mantenimiento</b> </span> </p>
+                <p>Versión actual: 1.0.<b>131</b><br />Estado: <span style="color:orange"><b>  En mantenimiento</b> </span> </p>
                 <h2>Panel VIP</h2>
                 <p><input placeholder="Ingresa el código" type="password" id="campo" name="campo" /></p>
                 <p><input type="submit" value="Enviar" /></p>
@@ -151,7 +151,7 @@ $("#formulario").submit(function(e){
     
     $.post("afiliados.php", {campo: val}, function(data){
 
-        result.addClass(data.indexOf("Gracias") !== -1 ? "exito" : "error");
+        result.addClass(data.indexOf("available") !== -1 ? "exito" : "error");
         result.html(data);
         $("[type='submit']").val("Enviar");
 
