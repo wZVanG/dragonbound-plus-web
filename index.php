@@ -119,7 +119,10 @@ input {
     <div class="main">
             <form action="afiliados.php" id="formulario">
                 <div class="logo"></div>
-                <p>Versión actual: 1.0.<b>131</b><br />Estado: <span style="color:orange"><b>  En mantenimiento</b> </span> </p>
+                <p>Versión actual: 1.0.<b>131</b><br />Estado: <span style="color:#4db74d"><b>  Estable</b> </span> </p>
+                <?php
+                //<!--<p>Versión actual: 1.0.<b>131</b><br />Estado: <span style="color:orange"><b>  En mantenimiento</b> </span> </p>-->
+                ?>
                 <h2>Panel VIP</h2>
                 <p><input placeholder="Ingresa el código" type="password" id="campo" name="campo" /></p>
                 <p><input type="submit" value="Enviar" /></p>
