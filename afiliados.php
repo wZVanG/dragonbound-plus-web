@@ -1,10 +1,12 @@
 <?php 
 
+    require("./config.php");
+
 	$campo = isset($_REQUEST["campo"]) ? $_REQUEST["campo"] : ""; 
 
 	//die("Código incorrecto"); 
 
-	if($campo !== "freefire" && $campo !== "fornite" && $campo !== "fortnite")  die("Código incorrecto"); 
+	if($campo !== $config["versions"]["vip"]["password"])  die("Código incorrecto"); 
 
 	//die("La actualización no se encuentra disponible. <br />Fecha subida: 2020-05-06 12:00:00 GMT -5"); 
 

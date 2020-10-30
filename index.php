@@ -1,9 +1,11 @@
-
+<?php
+    require("./config.php");
+?>
 <!doctype html5>
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>DragonBound Aimbot Plus 2020</title>
+        <title><?=$config["web"]["title"]?></title>
         <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
         <style>
 html {
@@ -90,6 +92,9 @@ input {
     font-size: .8rem;
     font-family: Tahoma;
     text-align: center;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
 }
 
 #resultado {
@@ -119,7 +124,7 @@ input {
     <div class="main">
             <form action="afiliados.php" id="formulario">
                 <div class="logo"></div>
-                <p>Versión actual: 1.0.<b>131</b><br />Estado: <span style="color:#4db74d"><b>  Estable</b> </span> </p>
+                <p>Versión actual: <?=$config["versions"]["vip"]["version_text"]?><br />Estado: <span style="color:<?=$estados[$config["versions"]["vip"]["status"]]["color"]?>"><b>  <?=$estados[$config["versions"]["vip"]["status"]]["text"]?></b> </span> </p>
                 <?php
                 //<!--<p>Versión actual: 1.0.<b>131</b><br />Estado: <span style="color:orange"><b>  En mantenimiento</b> </span> </p>-->
                 ?>
@@ -128,7 +133,8 @@ input {
                 <p><input type="submit" value="Enviar" /></p>
                 <p id="resultado"></p>
                 <p class="copyright">
-                    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb.facebook.com%2FDragonBound.Aimbot%2F&width=370&layout=standard&action=like&size=small&share=false&height=35&appId=878524359262184" width="370" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <!--<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb.facebook.com%2FDragonBound.Aimbot%2F&width=370&layout=standard&action=like&size=small&share=false&height=35&appId=878524359262184" width="370" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>-->
+                        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb.facebook.com%2FWAI.Technology%2F&width=370&layout=standard&action=like&size=small&share=false&height=35" width="370" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </p>
             </form>
             
