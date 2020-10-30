@@ -10,16 +10,16 @@
         <br>    <a href="./descargas/bot_free.zip">Descarga<a>
 
         <ul>
-        <li>Abrir extensiones de Chrome<li>
-        <li>Activar modo desarrollador<li>
-        <li>Clic botón Cargar Descomprimida <li>
-        <li>Seleccionar la carpeta bot_free<li>
-        <li>Abrir dragonbound.net<li>
-        <li>Disfrutar<li>
+        <li>Abrir extensiones de Chrome</li>
+        <li>Activar modo desarrollador</li>
+        <li>Clic botón Cargar Descomprimida </li>
+        <li>Seleccionar la carpeta bot_free</li>
+        <li>Abrir dragonbound.net</li>
+        <li>Disfrutar</li>
         </ul>
 
         <h3>Para adquirir versión Premium Indetectable</h3>
-        <p>Precio S/100 para 2 UserID por 1 mes (BOT PRIVADO). Escribir al inbox del FB o al WhatsApp <a href="https://wa.me/51902425910?text=Me%20interesa%20in%20el%20bot%20que%20vendes">902425910</a></p>
+        <p>Precio S/100 para 2 UserID por 1 mes (BOT PRIVADO). Escribir al inbox del FB o al WhatsApp <a href="https://wa.me/51902425910?text=Me%20interesa%20in%20el%20bot%20que%20vendes">(+51) 902425910</a> - Walter</p>
     ');
     
 
