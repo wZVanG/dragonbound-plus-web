@@ -39,11 +39,15 @@ server {
 
     autoindex off;
 
-    location / {
-        try_files $uri $uri/ /index.php?$args;
-    }
     
+location /free {
     rewrite ^/free/(.*)$ /free.php?controller=$1 last;
+rewrite ^/free /free.php last;
+}
+
+  #  location / {
+ #       try_files $uri $uri/ /index.php?$args;
+#    }
 
     location ~ .php$ {
          include snippets/fastcgi-php.conf;
