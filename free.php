@@ -10,6 +10,7 @@
         <br>    <a href="./descargas/bot_free.zip">Descarga<a>
 
         <ul>
+        <li>Extraer el zip la carpeta <b>bot_free</b></li>
         <li>Abrir extensiones de Chrome</li>
         <li>Activar modo desarrollador</li>
         <li>Clic botón Cargar Descomprimida </li>
