@@ -13,7 +13,7 @@ $config = [
         "vip" => [
             "version_text" => "1.0.<b>201</b>",
             "status" => "estable",
-            "password" => "halloween"
+            "password" => "leavemealone"
         ]
     ]
 ];

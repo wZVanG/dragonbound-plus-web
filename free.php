@@ -1,5 +1,7 @@
 <?php 
 
+exit;
+
     require("./config.php");
 
     echo isset($_REQUEST["controller"]) ? 'Controller: ' . $_REQUEST["controller"] . "<br />" : "";
