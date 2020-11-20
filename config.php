@@ -11,7 +11,7 @@ $config = [
     ],
     "versions" => [
         "vip" => [
-            "version_text" => "1.0.<b>201</b>",
+            "version_text" => "15.0.<b>001</b>",
             "status" => "estable",
             "password" => "leavemealone"
         ]
