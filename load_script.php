@@ -6,6 +6,7 @@ header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
 header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 $method = $_SERVER['REQUEST_METHOD'];
 if($method == "OPTIONS") exit;
-
-?>
-console.log(22222)
+$script = !empty($_GET["script"]) ? $_GET["script"] : null;
+$file = "./dev/$script.js";
+if($script && file_exists($file)) die(file_get_contents($file));
+?>//blank
